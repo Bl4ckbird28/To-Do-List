@@ -1,0 +1,26 @@
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  color: black;
+  font-weight: 700;
+}
+
+.toolbar img {
+  margin: 0 16px;
+}
+
+.title {
+  color: black;
+  font-weight: 700;
+  font-size: 140%;
+}

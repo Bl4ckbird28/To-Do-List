@@ -1,0 +1,59 @@
+.boardContainer {
+  background-color: transparent;
+  display: flex;
+}
+
+.container {
+  background-color: #b5b6b5;
+  height: 500%;
+  width: 100%;
+  font-weight: 600;
+  font-size: 200%;
+  white-space: nowrap;
+  border-radius: 10%;
+}
+
+.filterContainer {
+  display: flex;
+}
+
+.todayContainer {
+width: 45%;
+}
+
+.todayContainer:hover{
+  background-color: #636363;
+  border-radius: 3%;
+}
+
+.space {
+  width: 5%;
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.flaggedContainer {
+width: 45%;
+}
+
+.flaggedContainer:hover{
+  background-color: #636363;
+  border-radius: 3%;
+}
+
+.quantity {
+  text-align: right;
+  font-size: 60%;
+}
+
+.listContainer {
+  margin-top: 20px;
+  font-size: 70%;
+}

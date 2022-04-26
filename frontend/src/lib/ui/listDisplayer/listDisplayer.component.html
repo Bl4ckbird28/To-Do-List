@@ -1,0 +1,13 @@
+<div class="board">
+  <div class="title"> Amount of Reminders: {{ displayList.reminderItems.length }}</div>
+  <div>
+    <list
+      [idList]="displayList.id"
+      [title]="displayList.name"
+      [reminderItems]="displayList.reminderItems"
+      (changeTitleEvent)="onChangeTitle($event)"
+      (updateRequest)="requestUpdate(displayList.id)"
+      >
+  </list>
+  </div>
+</div>
