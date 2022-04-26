@@ -1,8 +1,33 @@
-# Portfolio von Tom Lamprecht & Tim Nöth
+# Kanban Board
 
-Vorab: das Frontend wurde nur mit dem Browser Google Chrome getestet und das Backend wurde mit Windows ausgeführt. Der Bildschirm hatte die Bildschirmauflösung: 1920x1080.
-Aufrufbar unter *“localhost:4200”*
+## API Documentation
 
-Das Bearbeiten des Listennamens erfolgt durchs Klicken auf das *“Stift-Icon”*, da durchs Anklicken des Namens die Liste zum Anzeigen ausgewählt wird.
+- <https://app.swaggerhub.com/apis/lbknogl/Kanban-Board/1.0.0>
 
-Wir haben uns dafür entschieden beim bearbeiten/eingeben des Listennamens erst mit dem bestätigen der Entertaste oder mit dem hearausklicken ein Request an das Backend gesendet wird, da unserer Meinung nach beim ständigen aktualisieren (für jegliche Eingabe einen Request zu senden) das Backend unnötig belastet wird.
+---
+
+## How to run backend
+
+[Backend Readme](docs/README_BACKEND.md)
+
+[Backend Readme for Windows Users](docs/README_BACKEND_WINDOWS.md)
+
+## How to run frontend
+
+[How to run frontend](docs/README_FRONTEND.md)
+
+---
+
+## Useful backend guides
+
+### JSON library
+
+- <https://rapidjson.org/md_doc_tutorial.html>
+
+### SQLite
+
+- <https://www.sqlite.org/cintro.html>
+
+### Web framework
+
+- <https://github.com/ipkn/crow/tree/master/examples>
